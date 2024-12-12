@@ -4,8 +4,8 @@ command: python model.py --trainingdata ${{ inputs.training_data }}
 inputs:
   training_data:
     type: uri_file
-    path: azureml:winemag-data:1
+    path: azureml:activity:1
 environment: azureml://registries/azureml/environments/sklearn-1.1/versions/14
 compute: Savaliya-P1 
-experiment_name: wine-origin
-description: wine origin classification
+experiment_name: activity-recognition
+description: Activity Recognition by priya savaliya
